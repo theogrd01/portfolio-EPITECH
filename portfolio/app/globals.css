@@ -151,6 +151,32 @@ body {
 /* slide down */
 
 
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  max-width: 500%;
+  color: white
+}
 
+.slide-right h2 {
+  animation: 4s slide-right 6s forwards;
+    transform:translateY(100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translatey(0);
+  }
+}
+
+
+/* picture  */
+.img {
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 50%;
+
+}
 
 

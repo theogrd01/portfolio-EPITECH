@@ -8,15 +8,28 @@ export default function Home() {
       {[...Array(10)].map((_, i) => (
         <div key={i} className="shooting-star"></div>
       ))}
+ <div>
+    <Image
+      src="/pp.png"
+      className="img rounded-full"
+      width={400}
+      height={400}
+      alt="Picture of the author"
+      priority
+    />
+  </div>
 
-      <main className="relative z-10 flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-
-      </main>
+      
       <div className="typewriter">
         <h1>Bonjour, je m'appelle Théo Garde </h1>
       </div>
+      <div className="slide-right">
+        <h2>et je suis actuellement en première année bachelor à Epitech </h2>
+      </div>
+      
     </div>
     
+
 
   );
 
