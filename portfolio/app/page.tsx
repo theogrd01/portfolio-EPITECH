@@ -1,4 +1,5 @@
 import Image from "next/image";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function Home() {
 
@@ -8,6 +9,7 @@ export default function Home() {
       {[...Array(10)].map((_, i) => (
         <div key={i} className="shooting-star"></div>
       ))}
+
  <div>
     <Image
       src="/theo.png"
@@ -17,6 +19,8 @@ export default function Home() {
       alt="Picture of the author"
       priority
     />
+    <br/>
+    <br/>
   </div>
 
       
@@ -26,8 +30,51 @@ export default function Home() {
       <div className="slide-right">
         <h2>et je suis actuellement en première année bachelor à Epitech </h2>
       </div>
-      
+     
+     <br/>
+     <div className="btn">
+       <a 
+          href="https://instagram.com/theo_.grd_" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="instagram-btn"
+        >
+          <i className="bi bi-instagram text-xl"></i>
+        </a>
+        <a 
+          href="https://www.linkedin.com/in/theo-garde-65797a3a0" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="linkedin-btn"
+        >
+          <i className="bi bi-linkedin text-xl"></i>
+        </a>
+
+         <a 
+          href="https://github.com/theogrd01" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="github-btn"
+        >
+          <i className="bi bi-github text-xl"></i>
+        </a>
+
+         <a 
+          href="https://x.com/GardeTheo" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="x-btn"
+        >
+          <i className="bi bi-twitter-x text-xl"></i>
+        </a>
+
+        
+        
+        </div>
     </div>
+    
+    
+
     
 
 
