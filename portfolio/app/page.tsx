@@ -10,7 +10,7 @@ export default function Home() {
       ))}
  <div>
     <Image
-      src="/pp.png"
+      src="/theo.png"
       className="img rounded-full"
       width={400}
       height={400}
