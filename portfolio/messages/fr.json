@@ -1,0 +1,13 @@
+{
+  "Home": {
+    "greeting": "Bonjour, je m'appelle Théo Garde",
+    "description": "et je suis actuellement en première année bachelor à Epitech",
+    "language": "FR",
+    "nav": {
+      "about": "A propos de moi",
+      "projects": "Mes projets",
+      "cv": "Curriculum Vitae",
+      "contact": "Prendre contact"
+    }
+  }
+}

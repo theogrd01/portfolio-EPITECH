@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
   overflow: hidden;
+  cursor: none ; 
 }
 
 .stars {
@@ -174,6 +175,8 @@ body {
 .img {
   display: block;
   margin: 0 auto;
+  position: relative;
+ 
 
 
   border-radius: 50%;
@@ -199,6 +202,7 @@ body {
   transition: transform 0.3s ease;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
   margin: 0.5rem;
+  cursor: none;
 }
 
 .instagram-btn:hover {
@@ -220,6 +224,7 @@ body {
   transition: transform 0.3s ease;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
   margin: 0.5rem;
+  cursor: none;
 }
 
 .x-btn:hover {
@@ -241,6 +246,8 @@ body {
   transition: transform 0.3s ease;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
   margin: 0.5rem;
+  cursor: none;
+  
 }
 
 .linkedin-btn:hover {
@@ -262,9 +269,98 @@ body {
   transition: transform 0.3s ease;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
   margin: 0.5rem;
+  cursor: none;
 }
 
 .github-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+.glow-on-hover {
+  margin-left: 140%;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  background: transparent;
+}
+
+
+/* navnar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent; 
+  
+  color: #fff;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  
+}
+
+.navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+    cursor: none;
+  
+}
+
+.navbar-center .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar-center .nav-links li {
+  margin-right: 1rem;
+  
+}
+
+.navbar-center .nav-links a {
+  color: #fff;
+  text-decoration: none;
+    cursor: none;
+}
+
+
+.cursor {
+  position: fixed;
+  width: 30px; /* ajuste la taille */
+  height: 30px;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s ease;
+
+}
+
+/* language */
+.language {
+  position: absolute;
+  left: 10%;
+  padding: 0.3%;
+  border-radius: 15%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 100%;
+    cursor: none;
+}
+.language option {
+  background-color: #1b2735;
+  color: #fff;
 }

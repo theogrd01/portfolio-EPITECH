@@ -1,0 +1,13 @@
+{
+    "Home": {
+      "greeting": "你好,我叫 Théo Garde",
+      "description": "我目前在 Epitech 读本科一年级",
+      "language": "ZH",
+      "nav": {
+        "about": "关于我",
+        "projects": "我的项目",
+        "cv": "简历",
+        "contact": "联系我"
+      }
+    }
+  }
