@@ -9,5 +9,16 @@
       "cv": "Curriculum Vitae",
       "contact": "Get in touch"
     }
-  }
+  },
+  "Form": {
+      "contact": "// Contact",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "Email address",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully"
+    }
 }

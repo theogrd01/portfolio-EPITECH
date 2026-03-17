@@ -9,5 +9,18 @@
       "cv": "Curriculum Vitae",
       "contact": "Prendre contact"
     }
-  }
+  },
+   "Form": {
+      "contact": "// Prise de contact",
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "email": "Adresse e-mail",
+      "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "submit": "Envoyer la transmission",
+      "sending": "Transmission en cours...",
+      "success": "Message transmis avec succès"
+    }
 }
+
+

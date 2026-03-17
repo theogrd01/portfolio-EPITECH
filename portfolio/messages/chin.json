@@ -9,5 +9,16 @@
         "cv": "简历",
         "contact": "联系我"
       }
+    },
+    "Form": {
+      "contact": "// Prise de contact",
+      "firstname": "名字",
+      "lastname": "姓氏",
+      "email": "电子邮件地址",
+      "message": "留言",
+      "messagePlaceholder": "请输入您的留言...",
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "success": "消息发送成功"
     }
   }

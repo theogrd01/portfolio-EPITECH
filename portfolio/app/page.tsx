@@ -3,7 +3,7 @@
 import Image from "next/image";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useEffect } from 'react';
-import { useTranslations, } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 export default function Home() {
 

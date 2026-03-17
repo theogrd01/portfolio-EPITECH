@@ -9,5 +9,16 @@
       "cv": "Lebenslauf",
       "contact": "Kontakt aufnehmen"
     }
-  }
+  },
+    "Form": {
+      "contact": "// Kontaktaufnahme",
+      "firstname": "Vorname",
+      "lastname": "Nachname",
+      "email": "E-Mail-Adresse",
+      "message": "Nachricht",
+      "messagePlaceholder": "Ihre Nachricht...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet"
+    }
 }
