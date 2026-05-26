@@ -1,0 +1,114 @@
+{
+    "Home": {
+      "greeting": "你好,我叫 Théo Garde",
+      "description": "我目前在 Epitech 读本科一年级",
+      "language": "ZH",
+      "nav": {
+        "about": "关于我",
+        "projects": "我的项目",
+        "cv": "简历",
+        "contact": "联系我"
+      }
+    },
+    "Form": {
+      "contact": "// 联系",
+      "firstname": "名字",
+      "lastname": "姓氏",
+      "mail": "电子邮件地址",
+      "message": "留言",
+      "messagePlaceholder": "请输入您的留言...",
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "success": "消息发送成功",
+       "subtitle": "请随时向我发送消息、问题,甚至合作机会。我始终愿意分享和探索新想法。"
+    },
+    "Projects": {
+      "rentrée-epi": {
+      "title": "进入 Epitech",
+      "description": "斯特拉斯堡 • 本科 • 2028届",
+      "text": "我加入 EPITECH 是为了以具体且高强度的方式提升我在软件开发和计算机科学方面的能力。该课程以实践和项目为基础，使我能够学会独立工作、解决复杂问题，并在真实项目中与团队合作。"
+    },
+    "todo-app": {
+      "title": "任务管理应用（Todo App）",
+      "description": "学校项目 • 管理与组织",
+      "text": "开发一个任务管理应用程序，旨在模拟企业中使用的工具。该项目让我能够锻炼应用结构设计、数据管理以及用户体验方面的能力。"
+    },
+    "social-network": {
+      "title": "社交网络",
+      "description": "个人项目 • 开发中",
+      "text": "设计一个完整的社交网络，包括用户管理、内容发布和互动功能。该项目使我能够深入提升全栈开发能力。"
+    },
+    "cv-digital": {
+      "title": "交互式数字简历",
+      "description": "学校项目 • 数字作品集",
+      "text": "创建一个以网站形式呈现的交互式简历，用于以动态和现代的方式展示我的经历、技能和项目。"
+    },
+    "owasp-juice-shop": {
+      "title": "网络安全与漏洞测试",
+      "description": "网络安全探索 • Burp Suite 与 OWASP",
+      "text": "通过 OWASP Juice Shop 对 Web 应用进行漏洞测试训练，学习常见的安全漏洞，并使用 Burp Suite 等工具分析网络流量。"
+    },
+    "portfolio": {
+      "title": "个人作品集",
+      "description": "学校项目 • 开发中",
+      "text": "创建我的个人作品集网站，以集中展示我的项目、经历和技能。该网站采用现代且可扩展的开发方式。"
+    },
+    "yowl": {
+      "title": "Yowl",
+      "description": "Web 项目 • 社交概念",
+      "text": "开发一个社交 Web 应用，使用户能够发布和互动短内容（文本、链接或其他轻量格式）。该项目分为两个主要阶段：产品设计阶段（占主要工作量）以及最小可行产品（MVP）的开发阶段。"
+    },
+    "tardis": {
+      "title": "Tardis",
+      "description": "数据项目 • 开发",
+      "text": "分析 SNCF 火车延误的历史数据，以识别趋势和重复出现的因素。在这些分析的基础上，我们开发了一个预测模型，可以在延误发生之前进行预测。结果通过使用 Streamlit 构建的交互式仪表板展示，使用户能够更好地理解和规划他们的出行。"
+    },
+    "nextbuy": {
+      "title": "NextBuy",
+      "description": "数据项目 • 开发",
+      "text": "Next Buy 项目旨在分析客户数据以理解购买行为。该项目包括创建探索性数据分析（EDA）、提取商业洞察，以及构建机器学习模型来预测行为。最终目标是帮助提升收入和市场营销效果。"
+    },
+    "alice-in-wonderland": {
+      "title": "爱丽丝梦游仙境",
+      "description": "用于旅游的聊天机器人开发 • 集成人工智能模型",
+      "text": "ELIZA 项目的目标是创建一个能够模拟与用户对话的聊天机器人。其目的是分析文本，并通过简单规则或自然语言处理进行回应，从而实现一种基础且具有互动性的人类对话体验。"
+    }
+  },
+  "About": {
+      "aboutMeText": "我是 Epitech Strasbourg 的学生，我对软件开发和技术充满热情。我一直在寻找新的机会，在计算机领域学习并成长。Epitech 的学习经历让我在编程、项目管理和团队合作方面积累了扎实的能力，我也很期待将这些能力应用到未来的项目中。",
+      "softSkillsTitle": "软技能",
+      "skill": {
+        "fr": "法语（母语）",
+        "en": "英语（B1）",
+        "license": "驾驶执照",
+        "teamwork": "团队合作",
+        "autonomy": "自主性",
+        "curiosity": "好奇心"
+      },
+     "educationTitle": "教育背景",
+      "epitechDates": "2025 - 2028",
+      "epitechSubtitle": "继续在斯特拉斯堡 Epitech 攻读本科项目",
+      "lyceeTitle": "Ribeaupierre 高中",
+      "lyceeDates": "2022 - 2025",
+      "lyceeSubtitle": "就读于 Ribeauvillé 的 Ribeaupierre 高中，准备 STMG 技术类高中毕业文凭",
+      "diplomasTitle": "文凭",
+      "passionTitle": "兴趣爱好",
+      "football": "足球",
+      "travel": "旅行",
+      "diplomaTitle": "STMG 高中文凭",
+      "diplomaDate": "2024 - 2025",
+      "diplomaSubtitle": "STMG 技术类高中毕业文凭",      
+      "skillsLangTitle": "主要编程语言相关技能",
+      "skillRateLabel": "已获得技能熟练度",
+      "tooltip": {
+        "moreProjects": "想了解更多关于 {label} 项目的信息，请查看我的项目。"
+      },
+      "intro": {
+        "javascript": "掌握的框架与库：React、Next.js、Node.js、Express.js...",
+        "python": "掌握的框架与库：discord.py、aiohttp、asyncio、AI（Ollama / Mistral）、pandas、numpy、matplotlib...",
+        "react": "经常使用 Next.js 和 React 完成个人及学校项目。",
+        "docker": "非常频繁地使用 Docker，以确保我的项目兼容所有环境。",
+        "sql": "我的大部分项目都基于 MySQL 后端开发。"
+      }
+    }
+  }

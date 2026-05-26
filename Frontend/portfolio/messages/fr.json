@@ -1,0 +1,116 @@
+{
+  "Home": {
+    "greeting": "Bonjour, je m'appelle Théo Garde",
+    "description": "je suis actuellement en première année bachelor à Epitech",
+    "language": "FR",
+    "nav": {
+      "about": "A propos de moi",
+      "projects": "Mes projets",
+      "cv": "Curriculum Vitae",
+      "contact": "Prendre contact"
+    }
+  },
+   "Form": {
+      "contact": "// Prise de contact",
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "mail": "Adresse e-mail",
+      "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "submit": "Envoyer la transmission",
+      "sending": "Transmission en cours...",
+      "success": "Message transmis avec succès",
+      "subtitle": "N'hésite pas à me transmettre un message, une question, ou même une opportunité de collaboration. Je suis toujours ouvert à échanger et à explorer de nouvelles idées."
+    },
+   "Projects": {
+    "rentrée-epi": {
+      "title": "Démarrage à Epitech",
+      "description": "Strasbourg • BACH • Promotion 2028",
+      "text": "J’ai intégré EPITECH afin de développer mes compétences en développement logiciel et en informatique de manière concrète et intensive. Cette formation, basée sur la pratique et les projets, me permet d’apprendre à travailler en autonomie, à résoudre des problèmes complexes et à collaborer en équipe sur des projets réels."
+    },
+    "todo-app": {
+      "title": "Application de gestion de tâches (Todo App)",
+      "description": "Projet scolaire • Gestion et organisation",
+      "text": "Développement d’une application de gestion de tâches destinée à simuler un outil utilisé en entreprise. Ce projet m’a permis de travailler la structuration d’une application, la gestion des données et l’expérience utilisateur."
+    },
+    "social-network": {
+      "title": "Réseau social",
+      "description": "Projet personnel • En cours de développement",
+      "text": "Conception d’un réseau social complet incluant la gestion des utilisateurs, des publications et des interactions. Ce projet me permet d’approfondir mes compétences en développement full-stack."
+    },
+    "cv-digital": {
+      "title": "CV numérique interactif",
+      "description": "Projet scolaire • Portfolio digital",
+      "text": "Création d’un CV interactif sous forme de site web permettant de présenter mon parcours, mes compétences et mes projets de manière dynamique et moderne."
+    },
+    "owasp-juice-shop": {
+      "title": "Sécurité web & tests de vulnérabilité",
+      "description": "Exploration cybersécurité • Burp Suite & OWASP",
+      "text": "Entraînement aux tests de vulnérabilités sur des applications web via OWASP Juice Shop. Découverte des failles de sécurité courantes et utilisation d’outils comme Burp Suite pour analyser le trafic."
+    },
+    "portfolio": {
+      "title": "Portfolio personnel",
+      "description": "Projet scolaire • En cours",
+      "text": "Création de mon portfolio personnel afin de centraliser mes projets, mon parcours et mes compétences. Le site est développé avec une approche moderne et évolutive."
+    },
+    "yowl": {
+      "title": "Yowl",
+      "description": "Projet web • Concept social",
+      "text": "Développement d’une  application web sociale permettant aux utilisateurs de publier et d’interagir avec du contenu court (texte, liens ou autres formats légers).Le projet est structuré en deux grandes étapes : une phase de conception produit, qui représente la partie principale du travail, et une phase de développement d’un MVP."
+    },
+    "tardis": {
+      "title": "Tardis",
+      "description": "Projet data • Développement",
+      "text": "analyser des données historiques de retards de trains de la SNCF afin d’identifier des tendances et des facteurs récurrents. À partir de ces analyses, nous développons un modèle prédictif capable d’anticiper les retards avant qu’ils ne se produisent. Les résultats sont ensuite présentés à travers un dashboard interactif réalisé avec Streamlit, permettant aux utilisateurs de mieux comprendre et anticiper leurs trajets."
+    },
+    "nextbuy": {
+      "title": "NextBuy",
+      "description": "Projet data • Développement",
+      "text": "Le projet Next Buy consistait à analyser des données clients pour comprendre les comportements d’achat.  création d'une EDA, en tirer des insights business, puis créer des modèles de mazh-CNe learning pour prédire des comportements. L’objectif final était d’aider à améliorer le chiffre d’affaires et le marketing."
+    },
+    "alice-in-wonderland": {
+      "title": "Alice in Wonderland",
+      "description": "Création d'un chatbot pour du tourisme • integrer un model d'IA",
+      "text": "Le projet ELIZA consistait à créer un chatbot capable de simuler une conversation avec un utilisateur. L'objectif était d'analyser le texte et répondre grâce à des règles simples ou du traitement du langage pour reproduire un échange humain basique et interactif."
+    }
+  }
+  ,
+  "About": {
+    "aboutMeText": "Étudiant à Epitech Strasbourg, j'ai une passion pour le développement logiciel et la technologie. Je suis constamment à la recherche de nouvelles opportunités pour apprendre et grandir dans le domaine de l'informatique. Mon parcours à Epitech me permet d'acquérir des compétences solides en programmation, en gestion de projets et en travail d'équipe, que je suis impatient de mettre en pratique dans des projets futurs.",
+    "softSkillsTitle": "Soft skills",
+    "skill": {
+      "fr": "Français (natif)",
+      "en": "Anglais (B1)",
+      "license": "Permis de conduire",
+      "teamwork": "Travail en équipe",
+      "autonomy": "Autonomie",
+      "curiosity": "Curiosité"
+    },
+    "educationTitle": "Éducation",
+    "epitechDates": "2025 - 2028",
+    "epitechSubtitle": "Poursuite de mes études à Epitech Strasbourg en programme Bachelor",
+    "lyceeTitle": "Lycée Ribeaupierre",
+    "lyceeDates": "2022 - 2025",
+    "lyceeSubtitle": "Scolarité au lycée Ribeaupierre à Ribeauvillé, préparation d’un baccalauréat technologique STMG",
+    "diplomasTitle": "Diplômes",
+    "passionTitle": "Passions",
+    "football": "Football",
+    "travel": "Voyager",
+    "diplomaTitle": "Baccalauréat STMG",
+    "diplomaDate": "2024 - 2025",
+    "diplomaSubtitle": "Baccalauréat technologique STMG",    
+    "skillsLangTitle": "Compétences développées dans les principaux langages",
+    "skillRateLabel": "Taux de compétence acquise",
+    "tooltip": {
+      "moreProjects": "Pour en savoir plus sur les projets réalisés en {label}, consultez mes projets."
+    },
+    "intro": {
+      "javascript": "Framework et librairies acquis : React, Next.js, Node.js, Express.js...",
+      "python": "Framework et librairies acquis : discord.py, aiohttp, asyncio, IA (Ollama / Mistral), pandas, numpy, matplotlib...",
+      "react": "Utilisation fréquente de Next.js et React pour projets personnels et scolaires.",
+      "docker": "Utilisation très fréquente de Docker afin de rendre mes projets compatibles sur tout environnement.",
+      "sql": "Réalisation de la majorité de mes projets avec un backend MySQL."
+    }
+  }
+}
+

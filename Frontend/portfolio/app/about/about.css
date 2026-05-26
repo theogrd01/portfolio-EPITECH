@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap");
+
+.new__bg {
+  height: 100%;
+  min-height: 500px;
+  
+  display: flex;
+  justify-content: center;
+}
+.hello__div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+.hello__svg {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 48px;
+  stroke-dasharray: 5800px;
+  stroke-dashoffset: 5800px;
+  animation: anim__hello linear 5s forwards;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.scroll-hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  color: white;
+}
+
+.scroll-hint__icon {
+  font-size: 5rem;
+  animation: scroll-indicator-arrow 1.4s ease-in-out infinite;
+}
+
+.hello-header {
+  padding: 0 1rem;
+}
+
+@keyframes anim__hello {
+  0% {
+    stroke-dashoffset: 5800;
+  }
+  25% {
+    stroke-dashoffset: 5800;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+/* scroll button */
+
+
+
+.skill-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.skill-line {
+  width: 100px;
+  background: linear-gradient(to top, #00c6ff, #0072ff);
+  margin-bottom: -20px;
+  z-index: 1;
+  animation: growLine 1.2s ease;
+}
+
+.skill-label {
+  color: white;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+
+
+@keyframes scroll-indicator-float {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 0.88;
+  }
+  50% {
+    transform: translateX(-50%) translateY(4px);
+    opacity: 1;
+  }
+}
+
+
+@keyframes scroll-indicator-arrow {
+  0%,
+  100% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+@keyframes intro-line-grow {
+  from {
+    width: 0;
+    opacity: 0.35;
+  }
+  to {
+    width: min(460px, 72vw);
+    opacity: 1;
+  }
+}
+
+@keyframes intro-text-rise {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .scroll-indicator {
+    bottom: 16px;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+
+  .scroll-indicator__text {
+    font-size: 0.7rem;
+  }
+
+  .about-intro {
+    min-height: 75vh;
+    padding-bottom: 5rem;
+  }
+
+  .about-intro__content {
+    padding: 2.4rem 1.2rem;
+    border-radius: 22px;
+  }
+
+  .about__skills-images {
+    gap: 0.75rem;
+  }
+}
+
+
+
+/* transition */
+/* ✅ Conteneur snap — doit être lui qui scroll */
+.snap-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  background-color: black;
+  position: relative;
+}
+
+/* ✅ Chaque section */
+.snap-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* ✅ Supprime les height: 100vh sur header/main/footer
+   car ils sont déjà dans une snap-section à 100vh */
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* plus de height: 100vh ici */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+
+/* main text presentation */
+
+.text-part-left {
+    display: inline-block;
+    position: relative;
+    right: 1%;
+    transform: translateX(0);
+    animation: slideIn 1s ease-out forwards;
+    color: white;
+}
+
+.text-part-right {
+    display: inline-block;
+    position: relative;
+    right: 1%;
+    transform: translateX(0);
+    animation: slideInRight 1s ease-out forwards;
+    color: white;
+   
+}
+
+.about-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem 3rem;
+  margin-top: 4rem;
+}
+
+
+
+
+
+.custom-tooltip {
+  background: rgba(15, 20, 35, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 0.65rem 0.8rem;
+  color: #ffffff;
+  max-width: 240px;
+}
+
+.custom-tooltip .label {
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+}
+
+.custom-tooltip .intro,
+.custom-tooltip .desc {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes growLine {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* taille texte presentation */
+.large-text {
+  font-size: 100%;
+  text-align: center;
+  
+
+}
+
+
+/* titre presentation */
+.presentation-title {
+  color: white;
+  text-align: left;
+}
+.barre {
+  width: 63%;   
+  height: 6px;
+  background: white;
+
+  margin-left: 0;
+}
+
+
+/* soft skills */
+.container {
+
+  display: flex;
+
+  gap: 10px; /* espace entre les bulles */
+  flex-wrap: wrap; /* permet aux bulles de passer à la ligne si nécessaire */
+
+}
+
+.buble-text {
+  width: 100%;
+  max-width: fit-content;
+  padding: 4%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2)
+}
+
+
+
+/* about section for formation  */
+.education-item {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.education-bar {
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffffff);
+  flex: 0 0 4px;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: white;
+}
+
+.education-title {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+.education-date {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.78;
+}
+
+.education-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  opacity: 0.92;
+}

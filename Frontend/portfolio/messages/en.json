@@ -1,0 +1,115 @@
+{
+  "Home": {
+    "greeting": "Hello, my name is Théo Garde",
+    "description": "and I'm currently in first year bachelor at Epitech",
+    "language": "EN",
+    "nav": {
+      "about": "About me",
+      "projects": "My projects",
+      "cv": "Curriculum Vitae",
+      "contact": "Get in touch"
+    }
+  },
+  "Form": {
+      "contact": "// Contact",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "mail": "Email address",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully",
+      "subtitle":"Don’t hesitate to send me a message, a question, or even an opportunity for collaboration. I am always open to sharing and exploring new ideas."
+    },
+  "Projects": {
+      "rentrée-epi": {
+      "title": "Starting at Epitech",
+      "description": "Strasbourg • BACH • Class of 2028",
+      "text": "I joined EPITECH to develop my skills in software development and computer science in a practical and intensive way. This program, based on hands-on projects, allows me to learn how to work independently, solve complex problems, and collaborate in teams on real-world projects."
+    },
+    "todo-app": {
+      "title": "Task management application (Todo App)",
+      "description": "School project • Management and organization",
+      "text": "Development of a task management application designed to simulate a tool used in a company. This project allowed me to work on application structure, data management, and user experience."
+    },
+    "social-network": {
+      "title": "Social network",
+      "description": "Personal project • In development",
+      "text": "Design of a complete social network including user management, posts, and interactions. This project allows me to deepen my full-stack development skills."
+    },
+    "cv-digital": {
+      "title": "Interactive digital CV",
+      "description": "School project • Digital portfolio",
+      "text": "Creation of an interactive CV in the form of a website to present my background, skills, and projects in a dynamic and modern way."
+    },
+    "owasp-juice-shop": {
+      "title": "Web security & vulnerability testing",
+      "description": "Cybersecurity exploration • Burp Suite & OWASP",
+      "text": "Training in vulnerability testing on web applications using OWASP Juice Shop. Discovery of common security flaws and use of tools like Burp Suite to analyze traffic."
+    },
+    "portfolio": {
+      "title": "Personal portfolio",
+      "description": "School project • In progress",
+      "text": "Creation of my personal portfolio to centralize my projects, background, and skills. The site is developed with a modern and scalable approach."
+    },
+    "yowl": {
+      "title": "Yowl",
+      "description": "Web project • Social concept",
+      "text": "Development of a social web application allowing users to publish and interact with short content (text, links, or other lightweight formats). The project is structured in two main phases: a product design phase, which represents the main part of the work, and a development phase of an MVP."
+    },
+    "tardis": {
+      "title": "Tardis",
+      "description": "Data project • Development",
+      "text": "Analyze historical train delay data from SNCF to identify trends and recurring factors. Based on this analysis, we develop a predictive model capable of anticipating delays before they occur. The results are presented through an interactive dashboard built with Streamlit, helping users better understand and anticipate their journeys."
+    },
+    "nextbuy": {
+      "title": "NextBuy",
+      "description": "Data project • Development",
+      "text": "The Next Buy project consisted of analyzing customer data to understand purchasing behavior. It involved creating an EDA, extracting business insights, and building mazh-CNe learning models to predict behavior. The final goal was to help improve revenue and marketing performance."
+    },
+    "alice-in-wonderland": {
+      "title": "Alice in Wonderland",
+      "description": "Chatbot creation for tourism • integrating an AI model",
+      "text": "The ELIZA project consisted of creating a chatbot capable of simulating a conversation with a user. The goal was to analyze text and respond using simple rules or natural language processing to reproduce a basic and interactive human-like exchange."
+    }
+  }
+  ,
+  "About": {
+    "aboutMeText": "I am a student at Epitech Strasbourg, and I am passionate about software development and technology. I am constantly looking for new opportunities to learn and grow in the field of computer science. My studies at Epitech are helping me build strong skills in programming, project management, and teamwork, which I am eager to put into practice in future projects.",
+    "softSkillsTitle": "Soft skills",
+    "skill": {
+      "fr": "French (native)",
+      "en": "English (B1)",
+      "license": "Driving license",
+      "teamwork": "Teamwork",
+      "autonomy": "Autonomy",
+      "curiosity": "Curiosity"
+    },
+    "educationTitle": "Education",
+      "epitechDates": "2025 - 2028",
+      "epitechSubtitle": "Continuing my studies at Epitech Strasbourg in the Bachelor's program",
+      "lyceeTitle": "Ribeaupierre High School",
+      "lyceeDates": "2022 - 2025",
+      "lyceeSubtitle": "Studies at Ribeaupierre High School in Ribeauvillé, preparing for a technological STMG baccalaureate",
+      "diplomasTitle": "Diplomas",
+      "passionTitle": "Passions",
+      "football": "Football",
+      "travel": "Travel",
+      "diplomaTitle": "STMG Baccalaureate",
+      "diplomaDate": "2024 - 2025",
+      "diplomaSubtitle": "Technological STMG baccalaureate",      
+      "skillsLangTitle": "Skills developed in major programming languages",
+      "skillRateLabel": "Skill proficiency rate",
+      "tooltip": {
+        "moreProjects": "To learn more about projects completed in {label}, check out my projects."
+      },
+      "intro": {
+        "javascript": "Frameworks and libraries learned: React, Next.js, Node.js, Express.js...",
+        "python": "Frameworks and libraries learned: discord.py, aiohttp, asyncio, AI (Ollama / Mistral), pandas, numpy, matplotlib...",
+        "react": "Frequent use of Next.js and React for personal and academic projects.",
+        "docker": "Very frequent use of Docker to make my projects compatible across all environments.",
+        "sql": "Most of my projects were built with a MySQL backend."
+      }
+  }
+}
